@@ -1,5 +1,5 @@
 # FlickPick - Movie Recommendation App
-FlickPick is a user-friendly movie recommendation application developed using Python and powered by the Cohere API. This app helps you discover movie titles by generating suggestions based on your input descriptions. It also offers the option to receive a random movie recommendation, ensuring that you always have exciting viewing options.
+FlickPick is a user-friendly movie recommendation application developed using Python and powered by the [Cohere](https://cohere.com/). This app helps you discover movie titles by generating suggestions based on your input descriptions. It also offers the option to receive a random movie recommendation, ensuring that you always have exciting viewing options.
 
 ## Use Case
 - Provides a movie recommendation service based on the type of movie a user wants to watch.
