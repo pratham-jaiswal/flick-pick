@@ -12,7 +12,7 @@ FlickPick is a user-friendly movie recommendation application developed using Py
 
 ## Installing and Using the App
 > ***Note: This is a windows only application***
-- Download the *FlickPickV1.exe* from [here](https://github.com/pratham-jaiswal/flick-pick/releases/tag/Latest).
+- Download the *FlickPickV1.0.0.exe* from [here](https://github.com/pratham-jaiswal/flick-pick/releases/tag/Latest).
 - Double click on it to install *FlickPick*.
 - Run the *FlickPick* app.
 - When the app loads, you'll get a random movie recommendation.
