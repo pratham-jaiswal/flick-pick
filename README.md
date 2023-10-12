@@ -6,9 +6,15 @@ FlickPick is a user-friendly movie recommendation application developed using Py
 - Plan movie nights with friends or family.
 
 ## Features
+- Choose between the *Classic Mode* and *Memory Mode*.
+    - ***Classic Mode*** - uses [Cohere's Generate Endpoint](https://docs.cohere.com/reference/generate) to generate a movie recommendations.
+    - ***Memory Mode*** - uses [Cohere's Chat Endpoint](https://docs.cohere.com/reference/chat) and maintains a temporary history of user prompts and its responses, which enables a more non-repetitive and context-aware responses.
 - Click the *Get Suggestion* button to receive a movie recommendation based on your input description.
 - Click the *Surprise Me* button to get a random movie recommendation.
 - Once you receive a recommendation, the app displays various details about the suggested movie, including its title, release year, IMDB rating, Rotten Tomatoes rating, directors, actors, studios, distributors, and plot.
+> ***Note:***
+> - The app will only be able to close when it is not generating any recommendation.
+> - Manual Window resizing is disabled, as it isn't responsive. But the window will still auto resize based on the responses generated.
 
 ## Installing and Using the App
 > ***Note: This is a windows only application***
@@ -16,6 +22,7 @@ FlickPick is a user-friendly movie recommendation application developed using Py
 - Double click on it to install *FlickPick*.
 - Run the *FlickPick* app.
 - When the app loads, you'll get a random movie recommendation.
+- Choose between the *Classic Mode* and *Memory Mode*.
 - Enter the type of movie you want to watch and click on *Get Suggestion* button to get a movie recommendation based on your input description.
 - Click the *Surprise Me* button to get a random movie recommendation.
 
@@ -41,6 +48,7 @@ FlickPick is a user-friendly movie recommendation application developed using Py
     ```
 - The *FlickPick* app will open.
 - When the app loads, you'll get a random movie recommendation.
+- Choose between the *Classic Mode* and *Memory Mode*.
 - Enter the type of movie you want to watch and click on *Get Suggestion* button to get a movie recommendation based on your input description.
 - Click the *Surprise Me* button to get a random movie recommendation.
 
